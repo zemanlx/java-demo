@@ -5,3 +5,10 @@ cbmcArguments:
   # This will be auto-detected in a future version
   java-max-input-array-length: 10
   unwind: 10
+phases:
+  - name: deeptest-worker-p1
+    timeout: 60
+  - name: deeptest-worker-p2
+    timeout: 1
+  - name: deeptest-worker-p2
+    timeout: 1
